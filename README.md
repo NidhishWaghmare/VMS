@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 VMS (Video Management System)
    This repository contains AI-based video processing projects for vehicle management.
 Projects
@@ -9,3 +10,6 @@ Setup
    Each project has its own README.md with setup instructions.
 License
    MIT License
+=======
+# VMS
+>>>>>>> fc83dbd768d3fb99d1dbc66b87419a6a676ce504
