@@ -1,0 +1,41 @@
+[
+    {
+        "cameraId": "uuid:c9712d5f-90cb-b78c-1f95-561c449f90cb",
+        "ip": "192.168.0.124",
+        "rtspUrl": "C:/Users/nidhi/Downloads/anprtest2.mp4",
+        "name": "",
+        "location": null,
+        "aiModels": [
+            {
+                "modelId": "2",
+                "modelName": "ANPR"
+            }
+        ]
+    },
+    {
+        "cameraId": "40731",
+        "ip": "192.168.3.1",
+        "rtspUrl": "C:/Users/nidhi/Downloads/anprtest2.mp4",
+        "name": "",
+        "location": null,
+        "aiModels": [
+            {
+                "modelId": "1",
+                "modelName": "vehicle in/out"
+            }
+        ]
+    },
+    {
+        "cameraId": "123456",
+        "ip": "192.168.4.3",
+        "rtspUrl": "C:/Users/nidhi/Downloads/anprtest2.mp4",
+        "name": "cam1",
+        "location": "main gate",
+        "aiModels": [
+            {
+                "modelId": "1",
+                "modelName": "vehicle in/out"
+            }
+        ]
+    }
+]

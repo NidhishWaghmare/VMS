@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data
+data/screenshots/*
+data/logs/*
+
+# Model files
+models/yolov8s.pt
+models/ANPR.pt
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.bak
