@@ -14,10 +14,6 @@ build/
 data/screenshots/*
 data/logs/*
 
-# Model files
-models/yolov8s.pt
-models/ANPR.pt
-
 # IDE
 .vscode/
 .idea/
