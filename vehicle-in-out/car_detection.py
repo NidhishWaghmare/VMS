@@ -4,7 +4,8 @@ from ultralytics import YOLO
 import json
 import os
 import threading
-from pathlib import\\[s*Path
+from pathlib import Path
+from datetime import datetime
 
 # Configuration
 SWAP_DIRECTIONS = False  # Set to True to swap "Entering" and "Exiting" labels
@@ -17,7 +18,7 @@ BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = DATA_DIR / "screenshots"
 JSON_DIR = DATA_DIR / "logs"
-MODEL_PATH = BASE_DIR / "models" / "yolov8s.pt"
+MODEL_PATH = BASE_DIR / "yolov8s.pt"
 INPUT_JSON = BASE_DIR / "input.json"
 
 # Ensure directories exist
